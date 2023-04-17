@@ -512,14 +512,14 @@ class _AliceCallsListScreenState extends State<AliceCallsListScreen>
                 onPressed: () {
                   Navigator.of(context).pop();
                 },
-                child: const Text("Cancel"),
+                Widget: const Text("Cancel"),
               ),
               TextButton(
                 onPressed: () {
                   Navigator.of(context).pop();
                   sortCalls();
                 },
-                child: const Text("Use filter"),
+                Widget: const Text("Use filter"),
               ),
             ],
           ),

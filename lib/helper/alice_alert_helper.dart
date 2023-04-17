@@ -21,7 +21,7 @@ class AliceAlertHelper {
           }
           Navigator.of(context).pop();
         },
-        child: Text(firstButtonTitle),
+        Widget: Text(firstButtonTitle),
       ),
     );
     if (secondButtonTitle != null) {
@@ -33,7 +33,7 @@ class AliceAlertHelper {
             }
             Navigator.of(context).pop();
           },
-          child: Text(secondButtonTitle),
+          Widget: Text(secondButtonTitle),
         ),
       );
     }
