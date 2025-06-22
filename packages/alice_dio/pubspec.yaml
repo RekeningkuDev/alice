@@ -3,6 +3,7 @@ description: "Alice + Dio integration. It contains plugin for Alice which allows
 version: 1.0.6
 repository: https://github.com/jhomlala/alice
 homepage: https://github.com/jhomlala/alice
+publish_to: none
 topics:
   - http
   - inspector
